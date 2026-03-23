@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <div class="game-header">
-            <img src="{{ url_for('static', filename='images/icon.png') }}" alt="icon" class="game-icon">
+            <img src="{{ url_for('static', filename='file_000000004a107209aac97fdf655a9c05.png') }}" alt="icon" class="game-icon">
 
             <div class="game-meta">
                 <h1>{{ game.name }}</h1>
@@ -42,4 +42,31 @@
                 <strong>{{ game.version }}</strong>
             </div>
             <div class="info-row">
-                <span>C
+                <span>Cập nhật</span>
+                <strong>{{ game.update_date }}</strong>
+            </div>
+            <div class="info-row">
+                <span>Tương thích với</span>
+                <strong>{{ game.android }}</strong>
+            </div>
+        </div>
+
+        <div class="description-card">
+            <h2>Giới thiệu game</h2>
+            <p>{{ game.description }}</p>
+
+            <h3>Tính năng nổi bật</h3>
+            <ul>
+                {% for feature in features %}
+                    <li>{{ feature }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="buttons">
+            <a href="{{ game.download_link }}" class="btn primary">Tải ngay</a>
+            <a href="{{ game.play_store_link }}" class="btn secondary">Google Play</a>
+        </div>
+    </div>
+</body>
+</html>
