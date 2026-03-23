@@ -17,10 +17,8 @@ def home():
     }
 
     screenshots = [
-        "images/shot1.jpg",
-        "images/shot2.jpg",
-        "images/shot3.jpg"
-    ]
+    "file_000000004a107209aac97fdf655a9c05.png"
+]
 
     features = [
         "Đồ họa đẹp và mượt",
