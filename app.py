@@ -5,13 +5,13 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     game = {
-        "name": "Shadow Arena",
-        "category": "Hành động",
-        "developer": "Storm Studio",
+        "name": "Dark Blub",
+        "category": "Chiến Lược",
+        "developer": "AVA",
         "version": "2.0.1",
         "update_date": "23 Mar 2026",
         "android": "Android 7.0+",
-        "description": "Shadow Arena là tựa game hành động hấp dẫn với đồ họa đẹp, chiến đấu tốc độ cao và nhiều chế độ chơi thú vị.",
+        "description": "Dark Blub là tựa game Chiến Lược mang lại nhiều điều hấp dẫn thú vị.",
         "download_link": "#",
         "play_store_link": "#"
     }
@@ -22,7 +22,7 @@ def home():
 
     features = [
         "Đồ họa đẹp và mượt",
-        "Nhiều chế độ chiến đấu",
+        "Chiến đấu chiến lược hấp dẫn",
         "Tùy chỉnh nhân vật",
         "Tối ưu cho nhiều máy Android"
     ]
