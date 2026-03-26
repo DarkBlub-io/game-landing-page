@@ -8,11 +8,13 @@ GAME = {
     "description": "Chiến lược đế chế là trò chơi nơi bạn xây dựng căn cứ, huấn luyện quân đội và chinh phục lãnh thổ bằng chiến thuật.",
     "download_link": "#",
     "play_store_link": "#",
-    "icon": "file_000000004a107209aac97fdf655a9c05.png"
+    "icon": "https://picsum.photos/200"
 }
 
 SCREENSHOTS = [
-    "file_000000004a107209aac97fdf655a9c05.png"
+    "https://picsum.photos/800/450?1",
+    "https://picsum.photos/800/450?2",
+    "https://picsum.photos/800/450?3"
 ]
 
 FEATURES = [
