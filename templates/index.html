@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <div class="game-header">
-            <img src="{{ url_for('static', filename='file_000000004a107209aac97fdf655a9c05.png') }}" alt="icon" class="game-icon">
+            <img src="{{ game.icon }}" alt="icon" class="game-icon">
 
             <div class="game-meta">
                 <h1>{{ game.name }}</h1>
@@ -20,7 +20,7 @@
 
         <div class="screenshots">
             {% for shot in screenshots %}
-                <img src="{{ url_for('static', filename=shot) }}" alt="Screenshot">
+                <img src="{{ shot }}" alt="Screenshot">
             {% endfor %}
         </div>
 
