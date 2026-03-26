@@ -1,10 +1,10 @@
 GAME = {
-    "name": "Chiến lược đế chế",
+    "name": "Dark Bluv",
     "category": "Chiến lược",
-    "developer": "Victory Studio",
+    "developer": "AVA",
     "version": "1.0.0",
     "update_date": "23 tháng 3 năm 2026",
-    "android": "Android 7.0 trở lên",
+    "android": "Android 7.0+",
     "description": "Chiến lược đế chế là trò chơi nơi bạn xây dựng căn cứ, huấn luyện quân đội và chinh phục lãnh thổ bằng chiến thuật.",
     "download_link": "#",
     "play_store_link": "#",
